@@ -2,17 +2,26 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>DOM Manipulation</title>
   </head>
   <body>
-    <h1>Dog</h1>
-    <section id="cat" class="cat-class">first cat</section>
-    <section class="cat-class">second cat</section>
-    <div class="mouse"></div>
-    <div class="mouse"></div>
-    <div class="mouse"></div>
-    <div class="hello"></div>
+    <!-- <div id="parentElement">
+      <span id="childElement">foo bar</span>
+    </div> -->
+    <p id="paragraph">What is your name?</p>
+    <a href="#" id="google-link" class="link">Google</a>
+
+    <div id="content">
+      <h1 id="title">Main title</h1>
+      <ul id="item-list"></ul>
+    </div>
+
+    <input type="text" placeholder="Full Name" />
+    <input type="email" placeholder="example@example.com" />
+    <input type="password" placeholder="******" />
+    <button id="send-btn">login</button>
+    <div id="container"></div>
+    <!-- make sure you load .js file in the end so it executes when the DOM is ready -->
     <script src="index.js"></script>
   </body>
 </html>
